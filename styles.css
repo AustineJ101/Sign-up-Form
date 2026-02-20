@@ -46,7 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 
 html{
     font-family: Domine, Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
 }
 
 
@@ -56,6 +55,7 @@ main{
 input{
     border-radius: 5px;
     border: 1px solid;
+    padding: 5px;
 }
 input:focus{
     outline: none;
@@ -114,6 +114,9 @@ img{
     width: 70vw;
 }
 
+.top-section p, h3{
+    font-size: 28px;
+}
 .top-section{
     background-color: whitesmoke;
     padding: 150px 30px 50px;
