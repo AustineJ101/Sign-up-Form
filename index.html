@@ -12,7 +12,11 @@
     <body>
         <main>
             <div class="left-section">
-                <img src="./assets/odin-logo.png" alt="The Odin Project Logo">
+                <div>
+                    <img src="./assets/odin-logo.png" alt="The Odin Project Logo">
+                    <span>ODIN</span>
+                </div>
+                
                 <p>Photo by <a href="">Haile West</a> on <a href="">Unsplash</a></p>
             </div>
 
@@ -57,20 +61,24 @@
                         <div class="input-container">
                             <div>
                                 <label for="user-password">PASSWORD</label>
-                                <input id="user-password" type="password" required name="user-password"  pattern="/^07\d{8}$/">
+                                <input id="user-password" type="password" required name="user-password">
                             </div>
 
                             <div>
-                                <label for="password-confirmation">PASSWORD CONFIRMATION</label>
+                                <label for="password-confirmation">CONFIRM PASSWORD</label>
                                 <input id="password-confirmation" type="password" required name="password-confirmation" pattern="/^07\d{8}$/">
                             </div>
                         </div>
+                         
+                       <div class="break"></div>
 
                         <button type="submit">Create Account</button>
 
                         <p class="login-prompt">Already have an account? <a href="">Log in</a></p>
                     </form>
+
                 </div>
+
             </div>
         </main>
     </body>
